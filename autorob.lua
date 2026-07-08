@@ -3,7 +3,7 @@ local function SetupAutoExecute()
     if queueOnTeleport then
         queueOnTeleport([[
             wait(2)
-            loadstring(game:HttpGet("Dein ding"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NightSyste/main-autorob/refs/heads/main/autorob.lua"))()
         ]])
     end
 end
