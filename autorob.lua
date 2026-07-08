@@ -3,13 +3,12 @@ local function SetupAutoExecute()
     if queueOnTeleport then
         queueOnTeleport([[
             wait(2)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/NightSyste/main-autorob/refs/heads/main/autorob.lua"))()
+            loadstring(game:HttpGet("Dein ding"))()
         ]])
     end
 end
 
 SetupAutoExecute()
-
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/NightSyste/NightUI/refs/heads/main/Night.lua"))()
 local Window = OrionLib:MakeWindow({
     Name         = "Night | discord.gg/DjvzXcqd5m ",
