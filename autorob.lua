@@ -1,14 +1,3 @@
-local function SetupAutoExecute()
-    local queueOnTeleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-    if queueOnTeleport then
-        queueOnTeleport([[
-            wait(2)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/NightSyste/main-autorob/refs/heads/main/autorob.lua"))()
-        ]])
-    end
-end
-
-SetupAutoExecute()
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/NightSyste/NightUI/refs/heads/main/Night.lua"))()
 local Window = OrionLib:MakeWindow({
     Name         = "Night | discord.gg/DjvzXcqd5m ",
